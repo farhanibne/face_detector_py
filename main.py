@@ -11,6 +11,7 @@ while True:
     faces = detector(gray)
     i = 0
 
+    
     for face in faces:
         x,y = face.left(),face.top()
         x1,y1 = face.right(),face.bottom()
